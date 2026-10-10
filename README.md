@@ -8,7 +8,7 @@ Shared Biome rules for `piro0919` repositories. ESLint のリポジトリは [es
 ## Usage
 
 ```bash
-pnpm add -D github:piro0919/biome-config#v1.0.0
+pnpm add -D github:piro0919/biome-config#v1.1.0
 ```
 
 ```json
@@ -22,7 +22,7 @@ pnpm add -D github:piro0919/biome-config#v1.0.0
 
 ## What it does
 
-- `biome` — 名前の無い数字を落とす（`style/noMagicNumbers`）。0・1・2・10・24・60 などは Biome が数字のまま許す
+- `biome` — 名前の無い数字を落とす（`style/noMagicNumbers`）。0・1・2・10・24・60 などは Biome が数字のまま許す。テストのファイル（`*.test.*`・`test/` など）は対象の外（期待値に名前を付けると読みにくくなるため）
 - `tailwind` — `[...]` に数字の入った値をじかに書いたクラスを落とす（GritQL の規則 `tailwind-arbitrary.grit`）。文字列の定数に入れたクラスも見る
 
 ## Notes

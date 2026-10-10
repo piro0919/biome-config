@@ -6,5 +6,24 @@
         "noMagicNumbers": "error"
       }
     }
-  }
+  },
+  "overrides": [
+    {
+      "includes": [
+        "**/*.test.*",
+        "**/*.spec.*",
+        "**/__tests__/**",
+        "test/**",
+        "tests/**",
+        "e2e/**"
+      ],
+      "linter": {
+        "rules": {
+          "style": {
+            "noMagicNumbers": "off"
+          }
+        }
+      }
+    }
+  ]
 }

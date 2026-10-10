@@ -1,4 +1,6 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
-  "plugins": ["./node_modules/@piro0919/biome-config/tailwind-arbitrary-error.grit"]
+  "plugins": [
+    "./node_modules/@piro0919/biome-config/tailwind-arbitrary-error.grit"
+  ]
 }
