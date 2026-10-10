@@ -1,0 +1,16 @@
+{
+  "name": "@piro0919/biome-config",
+  "version": "1.0.0",
+  "description": "Shared Biome rules for piro0919 repositories",
+  "license": "MIT",
+  "exports": {
+    "./biome": "./biome.json",
+    "./tailwind": "./tailwind.json",
+    "./biome-error": "./biome-error.json",
+    "./tailwind-error": "./tailwind-error.json"
+  },
+  "files": ["*.json", "*.grit"],
+  "peerDependencies": {
+    "@biomejs/biome": "^2.1.0"
+  }
+}
